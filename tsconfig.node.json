@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true, // 运行合成默认导入
+  },
+  "include": ["vite.config.ts"]
+}

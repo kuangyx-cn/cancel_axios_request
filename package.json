@@ -1,0 +1,48 @@
+{
+  "name": "cancel-axios-request",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/cancel-axios-request.umd.js",
+  "module": "./dist/cancel-axios-request.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/cancel-axios-request.es.js",
+      "require": "./dist/cancel-axios-request.umd.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuangyx-cn/cancel-axios-request.git"
+  },
+  "keywords": [
+    "axios",
+    "cancel-axios-request",
+    "cancel-axios"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7"
+  },
+  "author": "tomiaa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kuangyx-cn/cancel-axios-request/issues"
+  },
+  "homepage": "https://github.com/kuangyx-cn/cancel-axios-request#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "vue-router": "^4.0.16"
+  }
+}
