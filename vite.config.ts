@@ -17,8 +17,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'lib/main.ts'),
-      name: 'cancel-axios-request',
-      fileName: (format) => `cancel-axios-request.${format}.js`
+      name: 'cancel_axios_request',
+      fileName: (format) => `cancel_axios_request.${format}.js`
     },
     rollupOptions: {
       external: ['axios'],

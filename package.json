@@ -1,13 +1,13 @@
 {
-  "name": "cancel-axios-request",
-  "private": true,
+  "name": "cancel_axios_request",
+  "private": false,
   "version": "1.0.0",
   "description": "",
   "files": [
     "dist"
   ],
-  "main": "./dist/cancel-axios-request.umd.js",
-  "module": "./dist/cancel-axios-request.es.js",
+  "main": "./dist/cancel_axios_request.umd.js",
+  "module": "./dist/cancel_axios_request.es.js",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -15,17 +15,17 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/cancel-axios-request.es.js",
-      "require": "./dist/cancel-axios-request.umd.js"
+      "import": "./dist/cancel_axios_request.es.js",
+      "require": "./dist/cancel_axios_request.umd.js"
     }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kuangyx-cn/cancel-axios-request.git"
+    "url": "git+https://github.com/kuangyx-cn/cancel_axios_request.git"
   },
   "keywords": [
     "axios",
-    "cancel-axios-request",
+    "cancel_axios_request",
     "cancel-axios"
   ],
   "devDependencies": {
@@ -38,9 +38,9 @@
   "author": "tomiaa",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kuangyx-cn/cancel-axios-request/issues"
+    "url": "https://github.com/kuangyx-cn/cancel_axios_request/issues"
   },
-  "homepage": "https://github.com/kuangyx-cn/cancel-axios-request#readme",
+  "homepage": "https://github.com/kuangyx-cn/cancel_axios_request#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "vue-router": "^4.0.16"
