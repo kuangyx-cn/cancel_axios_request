@@ -4,7 +4,7 @@
     "useDefineForClassFields": true,
     "module": "esnext",
     "moduleResolution": "node",
-    "strict": true,
+    "strict": false,
     "jsx": "preserve",
     "sourceMap": true,
     "resolveJsonModule": true,
@@ -13,7 +13,11 @@
     "lib": ["esnext", "dom"],
     "skipLibCheck": true,
     "suppressImplicitAnyIndexErrors": true, // 跳过库检查
+    "declaration": true, /* 生成相关的 '.d.ts' 文件。 */ 
+    "declarationDir": "./dist", /* '.d.ts' 文件输出目录 */ 
+    "emitDeclarationOnly": true, /* 只生成声明文件，不生成 js 文件*/ 
+    "rootDir": "./lib", /* 指定输出文件目录（用于输出），用于控制输出目录结构 */ 
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "include": ["lib/*.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

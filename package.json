@@ -1,8 +1,9 @@
 {
   "name": "cancel_axios_request",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
+  "types": "./dist/main.d.ts",
   "files": [
     "dist"
   ],
@@ -10,7 +11,7 @@
   "module": "./dist/cancel_axios_request.es.js",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "exports": {

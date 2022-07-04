@@ -1,5 +1,6 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
-import { removeAll } from '../../lib/main'
+// import { removeAll } from '../../lib/main'
+import { removeAll } from '../../dist/cancel_axios_request.es'
 
 const routes: RouteRecordRaw[] = [
   {

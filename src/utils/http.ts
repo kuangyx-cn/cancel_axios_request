@@ -1,5 +1,6 @@
 import axios, { AxiosInstance, AxiosRequestConfig } from "axios";
-import * as cancelRequest from "../../lib/main";
+// import * as cancelRequest from "../../lib/main";
+import * as cancelRequest from "../../dist/cancel_axios_request.es";
 
 export class Http {
   public instance: AxiosInstance;
