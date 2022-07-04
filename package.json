@@ -1,7 +1,7 @@
 {
   "name": "cancel_axios_request",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "types": "./dist/main.d.ts",
   "files": [
