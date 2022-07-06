@@ -1,8 +1,8 @@
 {
   "name": "cancel_axios_request",
   "private": false,
-  "version": "1.0.4",
-  "description": "",
+  "version": "1.0.5",
+  "description": "这是一个取消axios重复请求的库，在vue-router跳转前取消当前正在进行的axios请求。",
   "types": "./dist/main.d.ts",
   "files": [
     "dist"
